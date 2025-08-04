@@ -1,0 +1,33 @@
+.Email {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(to right, #f3f4f6, #e5e7eb);
+  text-align: center;
+}
+
+.Email h1 {
+  font-size: 1.8rem;
+  color: #1f2937; /* Gray-800 */
+  max-width: 600px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.resend-button {
+  background-color: #6366f1; /* Indigo-500 */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.resend-button:hover {
+  background-color: #4f46e5; /* Indigo-600 */
+}
